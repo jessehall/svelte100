@@ -9,8 +9,9 @@
 <ol>
     <li><a href="/1">Consume a REST api and display data</a></li>
     <li><a href="/2">Square payment gateway</a></li>
-    <li><a href="/3">Form that writes to DB & send emails</a></li>
-    <li><a href="/4">Coming soon</a></li>
+    <li><a href="/3">Contact Form that writes to DB & send emails</a></li>
+    <li><a href="/4">Shopping Cart with payment gateway (stripe)</a></li>
+    <li><a href="/5">Coming soon</a></li>
 
 </ol>
 
