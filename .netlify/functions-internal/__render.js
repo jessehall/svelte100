@@ -2394,7 +2394,7 @@ var user_hooks = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module"
 });
-var template = ({ head, body }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="/favicon.png" />\n		<link rel="stylesheet" href="global.css">\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + '\n	</head>\n	<body>\n		<div id="svelte">' + body + "</div>\n	</body>\n</html>\n";
+var template = ({ head, body }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="/favicon.png" />\n		<link rel="stylesheet" href="../../build/global.css">\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + '\n	</head>\n	<body>\n		<div id="svelte">' + body + "</div>\n	</body>\n</html>\n";
 var options = null;
 var default_settings = { paths: { "base": "", "assets": "" } };
 function init(settings = default_settings) {
@@ -2405,9 +2405,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-8a660a5d.js",
+      file: assets + "/_app/start-8c18ba4b.js",
       css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-8a660a5d.js", assets + "/_app/chunks/vendor-0ea75f56.js"]
+      js: [assets + "/_app/start-8c18ba4b.js", assets + "/_app/chunks/vendor-0ea75f56.js"]
     },
     fetched: void 0,
     floc: false,
@@ -2484,7 +2484,7 @@ var module_lookup = {
     return _1$1;
   })
 };
-var metadata_lookup = { ".svelte-kit/build/components/layout.svelte": { "entry": "layout.svelte-8f6370ae.js", "css": [], "js": ["layout.svelte-8f6370ae.js", "chunks/vendor-0ea75f56.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-1fcdfa37.js", "css": [], "js": ["error.svelte-1fcdfa37.js", "chunks/vendor-0ea75f56.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-2ea000f7.js", "css": ["assets/pages/index.svelte-73f5255f.css"], "js": ["pages/index.svelte-2ea000f7.js", "chunks/vendor-0ea75f56.js"], "styles": [] }, "src/routes/1.svelte": { "entry": "pages/1.svelte-64d3964c.js", "css": [], "js": ["pages/1.svelte-64d3964c.js", "chunks/vendor-0ea75f56.js"], "styles": [] } };
+var metadata_lookup = { ".svelte-kit/build/components/layout.svelte": { "entry": "layout.svelte-8f6370ae.js", "css": [], "js": ["layout.svelte-8f6370ae.js", "chunks/vendor-0ea75f56.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-1fcdfa37.js", "css": [], "js": ["error.svelte-1fcdfa37.js", "chunks/vendor-0ea75f56.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-06106b8d.js", "css": ["assets/pages/index.svelte-73f5255f.css"], "js": ["pages/index.svelte-06106b8d.js", "chunks/vendor-0ea75f56.js"], "styles": [] }, "src/routes/1.svelte": { "entry": "pages/1.svelte-64d3964c.js", "css": [], "js": ["pages/1.svelte-64d3964c.js", "chunks/vendor-0ea75f56.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -2634,7 +2634,7 @@ var error2 = /* @__PURE__ */ Object.freeze({
 });
 var css = {
   code: "html{padding:50px}",
-  map: '{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["<script>\\n\\n\\n<\/script>\\n\\n<h1 class=\\"\\">Svelte 100</h1>\\n<p>100 Practical Svelte scripts</p>\\n\\n<ol>\\n    <li><a href=\\"/1\\">Consume a REST api and display data</a></li>\\n    <li><a href=\\"/2\\">Square payment gateway</a></li>\\n    <li><a href=\\"/3\\">Form that writes to DB & send emails</a></li>\\n    <li><a href=\\"/4\\">Coming soon</a></li>\\n\\n</ol>\\n\\n\\n<style>\\n\\n\\n\\nh1 {\\n    /* color: red;  */\\n}\\n\\n:global(html) {\\n    padding: 50px;\\n}\\n</style>"],"names":[],"mappings":"AAyBQ,IAAI,AAAE,CAAC,AACX,OAAO,CAAE,IAAI,AACjB,CAAC"}'
+  map: '{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["<script>\\n\\n\\n<\/script>\\n\\n<h1 class=\\"\\">Svelte 100</h1>\\n<p>100 Practical Svelte scripts</p>\\n\\n<ol>\\n    <li><a href=\\"/1\\">Consume a REST api and display data</a></li>\\n    <li><a href=\\"/2\\">Square payment gateway</a></li>\\n    <li><a href=\\"/3\\">Contact Form that writes to DB & send emails</a></li>\\n    <li><a href=\\"/4\\">Shopping Cart with payment gateway (stripe)</a></li>\\n    <li><a href=\\"/5\\">Coming soon</a></li>\\n\\n</ol>\\n\\n\\n<style>\\n\\n\\n\\nh1 {\\n    /* color: red;  */\\n}\\n\\n:global(html) {\\n    padding: 50px;\\n}\\n</style>"],"names":[],"mappings":"AA0BQ,IAAI,AAAE,CAAC,AACX,OAAO,CAAE,IAAI,AACjB,CAAC"}'
 };
 var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
@@ -2643,8 +2643,9 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 <ol><li><a href="${"/1"}">Consume a REST api and display data</a></li>
     <li><a href="${"/2"}">Square payment gateway</a></li>
-    <li><a href="${"/3"}">Form that writes to DB &amp; send emails</a></li>
-    <li><a href="${"/4"}">Coming soon</a></li>
+    <li><a href="${"/3"}">Contact Form that writes to DB &amp; send emails</a></li>
+    <li><a href="${"/4"}">Shopping Cart with payment gateway (stripe)</a></li>
+    <li><a href="${"/5"}">Coming soon</a></li>
 
 </ol>`;
 });

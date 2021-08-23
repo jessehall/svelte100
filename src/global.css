@@ -1,8 +1,6 @@
 
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities; 
+
 
 
 h1 {
@@ -13,3 +11,8 @@ h1 {
 html {
     padding: 50px;
 }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
