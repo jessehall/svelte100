@@ -15,6 +15,21 @@
 
 </ol>
 
+<h2>Tutorials</h2>
+<ol>
+    <li><a href="https://www.youtube.com/tailwindlabs" target="_blank">https://www.youtube.com/tailwindlabs</a></li>
+    <li><a href="https://www.youtube.com/channel/UCbmC3HP3FaAFdcZkui8YoMQ" target="_blank">https://www.youtube.com/channel/UCbmC3HP3FaAFdcZkui8YoMQ</a></li>
+    <li><a href="https://www.youtube.com/watch?v=UU7MgYIbtAk" target="_blank">https://www.youtube.com/watch?v=UU7MgYIbtAk</a></li>
+    <li><a href="https://www.youtube.com/watch?v=P6gEnVlJPOc" target="_blank">https://www.youtube.com/watch?v=P6gEnVlJPOc</a></li>
+    <li><a href="https://www.youtube.com/watch?v=j4AV2Liojk0" target="_blank">https://www.youtube.com/watch?v=j4AV2Liojk0</a></li>
+    <li><a href="https://www.youtube.com/channel/UCiFAmp2Crv66cQA-9SPje1A" target="_blank">https://www.youtube.com/channel/UCiFAmp2Crv66cQA-9SPje1A</a></li>
+
+
+
+    
+
+</ol>
+
 
 <style>
 
